@@ -32,10 +32,11 @@ Modify the input accordingly, only correct cron will be parsed.
 
 ## Changes Made
 
-- Created a Spring Boot application that takes a cron expression as a command line argument.
+- It is a Spring Boot application that takes a cron expression as a command line argument.
 - Implemented `CronParserService` to parse and expand the cron expression.
 - Added unit tests for `CronParserService` to ensure correct functionality.
 - Created a README file with instructions on how to build and run the project.
+- Use cmd to run this script based project to check the cron
 
 ## Unit Tests
 
