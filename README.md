@@ -20,6 +20,7 @@ This is a Spring Boot command line application that parses a cron string and exp
 
 Modify the input accordingly, only correct cron will be parsed.
 3. The output will be formatted as a table with the field name taking the first 14 columns and the times as a space-separated list following it:
+
     ```
     minute        0 15 30 45
     hour          0
