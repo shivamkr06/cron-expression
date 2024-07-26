@@ -18,7 +18,7 @@ This is a Spring Boot command line application that parses a cron string and exp
     */15 0 1,15 * 1-5 /sys/bin/find
     ```
 
-	Modify the input accordingly, only correct cron will be parsed.
+Modify the input accordingly, only correct cron will be parsed.
 3. The output will be formatted as a table with the field name taking the first 14 columns and the times as a space-separated list following it:
     ```
     minute        0 15 30 45
@@ -26,7 +26,7 @@ This is a Spring Boot command line application that parses a cron string and exp
     day of month  1 15
     month         1 2 3 4 5 6 7 8 9 10 11 12
     day of week   1 2 3 4 5
-    command       /usr/bin/find
+    command       /sys/bin/find
     ```
 
 ## Changes Made
